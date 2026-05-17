@@ -132,14 +132,14 @@ For Codex:
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R notebooklm-studio ~/.codex/skills/notebooklm-studio
+cp -R notebooklm-studio-Skill ~/.codex/skills/notebooklm-studio
 ```
 
 For Claude Code:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R notebooklm-studio ~/.claude/skills/notebooklm-studio
+cp -R notebooklm-studio-Skill ~/.claude/skills/notebooklm-studio
 ```
 
 For other agents, use the Skills directory required by that tool.

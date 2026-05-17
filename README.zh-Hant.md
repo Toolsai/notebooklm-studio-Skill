@@ -110,13 +110,7 @@ NotebookLM 官方已經可以接收很多格式，也可以生成很多內容。
 
 ### 方法一：使用 `npx skills add`
 
-如果你的 Agent 或 Skills 管理工具支援 `skills add`，可以直接使用：
-
-```bash
-npx skills add <倉庫>/<技能名>
-```
-
-發布到 GitHub 後，請把 `<倉庫>/<技能名>` 換成你的實際 repository 路徑，例如：
+如果你的 Agent 或 Skills 管理工具支援 `skills add`，可以直接安裝：
 
 ```bash
 npx skills add Toolsai/notebooklm-studio-Skill
@@ -132,18 +126,20 @@ npx skills add Toolsai/notebooklm-studio-Skill
 git clone https://github.com/Toolsai/notebooklm-studio-Skill.git
 ```
 
-然後把下載後的資料夾放到你的 Agent 可以讀取 Skills 的位置。以 Codex 常見的本地 Skills 目錄為例：
+然後把下載後的資料夾放到你的 Agent 可以讀取 Skills 的位置。建議安裝時把目標資料夾命名為 `notebooklm-studio`，這樣之後呼叫 Skill 時會更清楚。
+
+以 Codex 常見的本地 Skills 目錄為例：
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R notebooklm-studio ~/.codex/skills/notebooklm-studio
+cp -R notebooklm-studio-Skill ~/.codex/skills/notebooklm-studio
 ```
 
 如果你使用 Claude Code，常見的本地 Skills 目錄是：
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R notebooklm-studio ~/.claude/skills/notebooklm-studio
+cp -R notebooklm-studio-Skill ~/.claude/skills/notebooklm-studio
 ```
 
 如果你使用的是其他 Agent，請把資料夾放到該工具指定的 Skills 目錄。
