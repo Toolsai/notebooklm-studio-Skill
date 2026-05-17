@@ -113,7 +113,7 @@ You can install the Skill in either of these ways.
 If your agent or Skills manager supports `skills add`, run:
 
 ```bash
-npx skills add Toolsai/notebooklm-studio
+npx skills add Toolsai/notebooklm-studio-Skill
 ```
 
 This is the simplest option for users already working with Skills.
@@ -123,7 +123,7 @@ This is the simplest option for users already working with Skills.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Toolsai/notebooklm-studio.git
+git clone https://github.com/Toolsai/notebooklm-studio-Skill.git
 ```
 
 Then place the folder where your agent can read Skills.

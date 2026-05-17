@@ -119,7 +119,7 @@ npx skills add <倉庫>/<技能名>
 發布到 GitHub 後，請把 `<倉庫>/<技能名>` 換成你的實際 repository 路徑，例如：
 
 ```bash
-npx skills add Toolsai/notebooklm-studio
+npx skills add Toolsai/notebooklm-studio-Skill
 ```
 
 這是最簡單的安裝方式，適合已經使用 Skills 工作流的人。
@@ -129,7 +129,7 @@ npx skills add Toolsai/notebooklm-studio
 你也可以用傳統方式下載：
 
 ```bash
-git clone https://github.com/Toolsai/notebooklm-studio.git
+git clone https://github.com/Toolsai/notebooklm-studio-Skill.git
 ```
 
 然後把下載後的資料夾放到你的 Agent 可以讀取 Skills 的位置。以 Codex 常見的本地 Skills 目錄為例：
