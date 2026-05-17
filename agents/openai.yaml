@@ -1,0 +1,4 @@
+interface:
+  display_name: "NotebookLM Studio"
+  short_description: "Run NotebookLM artifacts and launch the local Studio dashboard from Codex."
+  default_prompt: "Use NotebookLM Studio to ingest authorized sources, create or reuse notebooks, generate official NotebookLM artifacts, download outputs, launch the local dashboard when useful, and report source-grounded results with limitations."
